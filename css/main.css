@@ -1,0 +1,91 @@
+/* header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+576px
+*/
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('../fonts/Bahnschrift.ttf') format('woff2');
+}
+
+
+header {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.center {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.hr {
+    text-align: center;
+    padding-top:40px;
+    padding-bottom:80px;
+}
+
+.right {
+    text-align: right;
+    border: 30px;
+}
+
+
+.content {
+    padding: 25px;
+}
+
+
+p {
+     text-align: left;
+     padding-top: 2px;
+     padding-left: 30px;
+     padding-right: 30px;
+     font-size:46px;
+     text-indent:30px;
+     font-family: Bahnschrift;
+}
+
+
+.big {
+     text-align: left;
+     padding-bottom: 2px;
+     padding-left: 30px;
+     padding-right: 30px;
+     font-family: Bahnschrift;
+     font-size:55px;
+     text-indent: 0px;
+}
+
+
+.minibig {
+     text-align: left;
+     padding-bottom: 30px;
+     font-family: Bahnschrift;
+     font-size:46px;
+     text-indent: 0px;
+}
+
+
+a {
+    color: #000000; /* Цвет обычной ссылки */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+
+
+@media screen and (max-width: 768px) {
+
+}
